@@ -1,0 +1,32 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18c35bde577-77a50ce810c1fdc7": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "bdclientes",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\Users\\Ryzen 7 5700G\\eclipse-workspace\\teste\\Clientes\\resources\\bdclientes",
+				"url": "jdbc:sqlite:C:\\Users\\Ryzen 7 5700G\\eclipse-workspace\\teste\\Clientes\\resources\\bdclientes",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Desenvolvimento",
+			"color": "255,255,255",
+			"description": "Banco de dados de desenvolvimento",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": false,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800
+		}
+	}
+}
